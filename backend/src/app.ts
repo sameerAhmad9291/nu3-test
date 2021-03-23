@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import * as bodyParser from 'body-parser';
+import { errorHandlerMiddleware } from './middlewares/error-handler.middleware';
 import authenticationRoutes from './authentication/routes/user.route';
 import fileStorageRoutes from './file-storage/routes/file-storage.route';
 import productRoutes from './product-management/routes/product.route';
@@ -18,5 +19,6 @@ app.use('/file-storage', fileStorageRoutes);
 app.use('/products', authenticateToken, productRoutes);
 app.use('/inventory', authenticateToken, inventoryRoutes);
 
+app.use(errorHandlerMiddleware);
 export default app;
 
