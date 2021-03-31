@@ -4,9 +4,6 @@
 
 **Typescript**, **NodeJS**, **Angular**, **MongoDB**, **Jest**, **expressJS**
 
-# swvl-notifications
-swvl task for tech lead position
-
 ## contents
 - [installation](#installation)
 - [run tests](#run-tests)
