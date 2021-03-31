@@ -1,4 +1,4 @@
-# nu3-test
+# Technical test
 
 ## contents
 - [installation](#installation)
@@ -7,7 +7,6 @@
 - [available APIs](#available-apis)
 - [full scenario](#full-scenario)
 - [technical explanation](#technical-explanation)
-- [technologies(#technologies)
 
 ## Installation
 for the services to run smothly together,
@@ -70,7 +69,7 @@ Order Data Example
   },
   "bookingDate": 1554284950000,
   "customer": {
-    "email": "emad.alam@construyo.de",
+    "email": "emad.alam@ddd.de",
     "name": "Emad Alam",
     "phone": "015252098067"
   },
@@ -82,8 +81,8 @@ Order Data Example
 User Data Example
 ```json
 {
-  "email": "coding-challenge@construyo",
-  "name": "Construyo Coding Challenge",
+  "email": "coding-challenge@ss",
+  "name": "Coding Challenge",
   "phone": "0123456789",
   "uid": "5iEm1HvIxubLaiKO4yj0Npmvq0F2"
 }
